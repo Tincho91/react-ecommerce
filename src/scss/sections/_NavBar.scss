@@ -1,0 +1,37 @@
+@use '../custom' as *;
+
+.navbar {
+    background-color: $background;
+
+    &--brand {
+
+        &--logo{
+            width: 8rem;
+    
+        }
+    }
+
+    &--toggler {
+
+        &--items {
+
+            &--link {
+                font-size: 1.5rem
+                
+            }
+
+        }
+    }
+
+    &--cart{
+        font-size: 1.5rem;
+
+        .badge{
+            
+            font-size: 0.75rem;
+            top: -3px;
+            right: -10px;
+        }
+    }
+
+}
