@@ -14,7 +14,7 @@ export const NavBar = (ItemQtty) => {
             <Container>
                 <Navbar.Brand href="#home" className="navbar--brand">
                     <img
-                        src="src/assets//img/logo2.png"
+                        src="src/assets/img/logo2.png"
                         className="d-inline-block align-top navbar--brand--logo"
                         alt="Aquel Manzano Logo"
                     />
