@@ -5,28 +5,28 @@ import Col from "react-bootstrap/Col";
 
 const Item = (props) => {
   return (
-    <Col xs={6} md={4}>
-      <Card style={{ width: "18rem" }}>
+    <Col xs={6} md={4} lg={3} className="">
+      <Card className="mb-4 itemCard">
         <Carousel>
           <Carousel.Item>
             <img
               className="d-block w-100"
               src={props.imagen[0]}
-              alt="First slide"
+              alt=""
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100"
               src={props.imagen[1]}
-              alt="Second slide"
+              alt=""
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100"
               src={props.imagen[2]}
-              alt="Third slide"
+              alt=""
             />
           </Carousel.Item>
         </Carousel>

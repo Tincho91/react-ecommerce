@@ -1,12 +1,10 @@
-import { Container } from 'react-bootstrap';
 import Item from './Item';
 
 
 const ItemList = (props) => {
     
     return (
-
-        <div className='itemListContainer'>
+        <>
         {
             props.datos.map( item => 
             <Item 
@@ -17,8 +15,7 @@ const ItemList = (props) => {
             />
             )
         }
-        </div>
-        
+        </>
     )
 }
 
