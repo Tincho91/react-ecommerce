@@ -1,11 +1,13 @@
 @use '../custom' as *;
 
 .carrousel {
+
     img {
 
         object-fit: cover;
         object-position: center center;
-        height: 85vh;
-        width: 100%;
+        bottom: 0;
+        height: 100vh;
+        width: 100vw;
     }
 }

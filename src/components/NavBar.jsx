@@ -23,7 +23,7 @@ export const NavBar = (ItemQtty) => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" className="navbar--btn"/>
                 <Navbar.Collapse id="basic-navbar-nav" className="navbar--toggler">
                     <Nav className="ms-auto navbar--toggler--items">
-                        <Nav.Link href="#home" className="navbar--toggler--items--link text-dark">Home</Nav.Link>
+                        <Nav.Link href="#home" className="navbar--toggler--items--link text-dark">Acessorios</Nav.Link>
                         <Nav.Link href="#link" className="navbar--toggler--items--link text-dark">Link</Nav.Link>
                         <Form className="d-flex navbar--toggler--items--form">
                             <Form.Control
