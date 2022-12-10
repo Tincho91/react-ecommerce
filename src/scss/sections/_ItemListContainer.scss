@@ -2,4 +2,8 @@
 
 .itemListContainer {
     margin-top: 14vh;
+
+    @include media-breakpoint-down(md) {
+        margin-top: 19vh;
+    }
 }

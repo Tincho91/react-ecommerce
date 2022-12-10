@@ -80,11 +80,11 @@ export const itemDataBase = [
         "rating": 5,
         "stock": 5,
         "brand": "",
-        "categoryId": 1,
+        "categoryId": 2,
         "category": 
         {
             "categoryName": "ropa",
-            "id": 1
+            "id": 2
         },
         "thumbnail": "...",
         "images": 
@@ -104,11 +104,11 @@ export const itemDataBase = [
         "rating": 5,
         "stock": 5,
         "brand": "",
-        "categoryId": 1,
+        "categoryId": 2,
         "category": 
         {
             "categoryName": "ropa",
-            "id": 1
+            "id": 2
         },
         "thumbnail": "...",
         "images": 
@@ -128,11 +128,11 @@ export const itemDataBase = [
         "rating": 5,
         "stock": 5,
         "brand": "",
-        "categoryId": 1,
+        "categoryId": 2,
         "category": 
         {
             "categoryName": "ropa",
-            "id": 1
+            "id": 2
         },
         "thumbnail": "...",
         "images": 
@@ -152,7 +152,12 @@ export const itemDataBase = [
         "rating": 5,
         "stock": 5,
         "brand": "",
-        "category": "ropa",
+        "categoryId": 3,
+        "category": 
+        {
+            "categoryName": "ropa",
+            "id": 3
+        },
         "thumbnail": "...",
         "images": 
         [
@@ -171,11 +176,11 @@ export const itemDataBase = [
         "rating": 5,
         "stock": 5,
         "brand": "",
-        "categoryId": 1,
+        "categoryId": 3,
         "category": 
         {
             "categoryName": "ropa",
-            "id": 1
+            "id": 3
         },
         "thumbnail": "...",
         "images": 
@@ -195,7 +200,12 @@ export const itemDataBase = [
         "rating": 5,
         "stock": 5,
         "brand": "",
-        "category": "ropa",
+        "categoryId": 3,
+        "category": 
+        {
+            "categoryName": "ropa",
+            "id": 3
+        },
         "thumbnail": "...",
         "images": 
         [
@@ -214,11 +224,11 @@ export const itemDataBase = [
         "rating": 5,
         "stock": 5,
         "brand": "",
-        "categoryId": 1,
+        "categoryId": 3,
         "category": 
         {
             "categoryName": "ropa",
-            "id": 1
+            "id": 3
         },
         "thumbnail": "...",
         "images": 
