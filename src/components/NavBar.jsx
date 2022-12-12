@@ -26,9 +26,9 @@ export const NavBar = (ItemQtty) => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" className="navbar--btn"/>
                 <Navbar.Collapse id="basic-navbar-nav" className="navbar--toggler">
                     <Nav className="ms-auto navbar--toggler--items">
-                        <Navbar.Text><Link to='/category/1' className="navbar--toggler--items--link text-dark">Categoría 1</Link></Navbar.Text>
-                        <Navbar.Text><Link to='/category/2' className="navbar--toggler--items--link text-dark">Categoría 2</Link></Navbar.Text>
-                        <Navbar.Text><Link to='/category/3' className="navbar--toggler--items--link text-dark">Categoría 3</Link></Navbar.Text>
+                        <Navbar.Text><Link to='/category/1' className="navbar--toggler--items--link text-dark pe-4">Categoría 1</Link></Navbar.Text>
+                        <Navbar.Text><Link to='/category/2' className="navbar--toggler--items--link text-dark pe-4">Categoría 2</Link></Navbar.Text>
+                        <Navbar.Text><Link to='/category/3' className="navbar--toggler--items--link text-dark pe-4">Categoría 3</Link></Navbar.Text>
                         <Form className="d-flex navbar--toggler--items--form">
                             <Form.Control
                                 type="search"
