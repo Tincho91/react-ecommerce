@@ -6,6 +6,7 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
 import { AiOutlineShoppingCart } from 'react-icons/ai';
+import { LinkContainer } from 'react-router-bootstrap';
 
 export const NavBar = (ItemQtty) => {
     ItemQtty = 3; //palceholder
@@ -26,9 +27,15 @@ export const NavBar = (ItemQtty) => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" className="navbar--btn"/>
                 <Navbar.Collapse id="basic-navbar-nav" className="navbar--toggler">
                     <Nav className="ms-auto navbar--toggler--items">
-                        <Navbar.Text><Link to='/category/1' className="navbar--toggler--items--link text-dark pe-4">Categoría 1</Link></Navbar.Text>
-                        <Navbar.Text><Link to='/category/2' className="navbar--toggler--items--link text-dark pe-4">Categoría 2</Link></Navbar.Text>
-                        <Navbar.Text><Link to='/category/3' className="navbar--toggler--items--link text-dark pe-4">Categoría 3</Link></Navbar.Text>
+                        <LinkContainer to='/category/1'>
+                            <Nav.Link className="navbar--toggler--items--link text-dark pe-4">Categoría 1</Nav.Link>
+                        </LinkContainer>
+                        <LinkContainer to='/category/2'>
+                            <Nav.Link className="navbar--toggler--items--link text-dark pe-4">Categoría 2</Nav.Link>
+                        </LinkContainer>
+                        <LinkContainer to='/category/3'>
+                            <Nav.Link className="navbar--toggler--items--link text-dark pe-4">Categoría 3</Nav.Link>
+                        </LinkContainer>
                         <Form className="d-flex navbar--toggler--items--form">
                             <Form.Control
                                 type="search"
