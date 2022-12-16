@@ -2,8 +2,10 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Carousel from "react-bootstrap/Carousel";
 import Col from "react-bootstrap/Col";
+import { Link } from "react-router-dom";
 
 const ItemDetail = (props) => {
+
   return (
     <Col xs={6} md={4} lg={3} className="">
       <Card className="mb-4 itemCard">
@@ -34,7 +36,7 @@ const ItemDetail = (props) => {
           <Card.Title>{props.title}</Card.Title>
           <Card.Text>{props.precio}</Card.Text>
           <Button variant="primary">Go somewhere</Button>
-        </Card.Body>
+          </Card.Body>
       </Card>
     </Col>
   );

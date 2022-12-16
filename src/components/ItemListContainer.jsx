@@ -36,7 +36,7 @@ export const ItemListContainer = () => {
     if (isLoading) {
         return(
             <Container className="loadingContainer vh-100">
-                <Spinner className="loading" animation="grow" role="status" size='xl'> 
+                <Spinner className="loading" animation="grow" role="status"> 
                     <span className="visually-hidden">Loading...</span>
                 </Spinner>
             </Container>

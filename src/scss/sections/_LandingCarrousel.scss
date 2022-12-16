@@ -28,7 +28,7 @@
             background: linear-gradient(270deg, #fae6eb, #f4aed4, #fae6eb);
             background-size: 600% 600%;
             border: 1px solid #f4aed4;
-            animation: PBgradient 4s ease infinite;
+            animation: PBgradient 3s ease-out infinite;
         }
         
         @keyframes PBgradient {

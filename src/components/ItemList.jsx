@@ -8,7 +8,8 @@ const ItemList = (props) => {
         {
             props.datos.map( item => 
             <Item 
-                key = {item.id}
+                key = {item.key}
+                id = {item.id}
                 title = {item.title}
                 precio = {item.price}
                 imagen = {item.images}

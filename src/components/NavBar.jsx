@@ -28,13 +28,13 @@ export const NavBar = (ItemQtty) => {
                 <Navbar.Collapse id="basic-navbar-nav" className="navbar--toggler">
                     <Nav className="ms-auto navbar--toggler--items">
                         <LinkContainer to='/category/1'>
-                            <Nav.Link className="navbar--toggler--items--link text-dark pe-4">Categoría 1</Nav.Link>
+                            <Nav.Link className="navbar--toggler--items--link text-dark pe-4">Accesorios</Nav.Link>
                         </LinkContainer>
                         <LinkContainer to='/category/2'>
-                            <Nav.Link className="navbar--toggler--items--link text-dark pe-4">Categoría 2</Nav.Link>
+                            <Nav.Link className="navbar--toggler--items--link text-dark pe-4">Indumentaria</Nav.Link>
                         </LinkContainer>
                         <LinkContainer to='/category/3'>
-                            <Nav.Link className="navbar--toggler--items--link text-dark pe-4">Categoría 3</Nav.Link>
+                            <Nav.Link className="navbar--toggler--items--link text-dark pe-4">Bianquería</Nav.Link>
                         </LinkContainer>
                         <Form className="d-flex navbar--toggler--items--form">
                             <Form.Control

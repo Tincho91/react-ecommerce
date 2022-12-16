@@ -1,13 +1,14 @@
 import ItemDetail from "./ItemDetail";
 
-const ItemDetailList = (props) => {
+const ItemDetailMap = (props) => {
     
     return (
         <>
         {
             props.datos.map( item => 
-            <Item 
-                key = {item.id}
+            <ItemDetail
+                key = {item.key}
+                id = {item.id}
                 title = {item.title}
                 precio = {item.price}
                 imagen = {item.images}
@@ -18,4 +19,4 @@ const ItemDetailList = (props) => {
     )
 }
 
-export default ItemDetailList;
+export default ItemDetailMap;
