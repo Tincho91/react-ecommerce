@@ -10,8 +10,11 @@ const ItemDetailMap = (props) => {
                 key = {item.key}
                 id = {item.id}
                 title = {item.title}
-                precio = {item.price}
-                imagen = {item.images}
+                description = {item.description}
+                price = {item.price}
+                images = {item.images}
+                brand = {item.brand}
+                material = {item.material}
             />
             )
         }

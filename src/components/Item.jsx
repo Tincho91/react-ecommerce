@@ -13,28 +13,28 @@ const Item = (props) => {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={props.imagen[0]}
+              src={props.images[0]}
               alt=""
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={props.imagen[1]}
+              src={props.images[1]}
               alt=""
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={props.imagen[2]}
+              src={props.images[2]}
               alt=""
             />
           </Carousel.Item>
         </Carousel>
         <Card.Body>
           <Card.Title>{props.title}</Card.Title>
-          <Card.Text>{props.precio}</Card.Text>
+          <Card.Text>{props.price}</Card.Text>
           <Link to={`/details/${props.id}`}>
             <Button variant="primary">Go somewhere</Button>
           </Link>

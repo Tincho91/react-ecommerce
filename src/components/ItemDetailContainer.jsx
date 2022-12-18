@@ -44,11 +44,9 @@ export const ItemDetailContainer = () => {
     };
 
     return(
-        <Container className="itemListContainer">
-            <Row>
-                <ItemDetailMap className="item-detail" datos={datos}/>
-            </Row>
-        </Container>
+
+        <ItemDetailMap className="item-detail" datos={datos}/>
+
     )
     
 }

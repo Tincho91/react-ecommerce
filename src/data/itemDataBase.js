@@ -2,12 +2,14 @@ export const itemDataBase = [
     {
         "id": 1,
         "title": "BABEROS",
-        "description": "",
+        "description": "Descripcion corta",
+        "longDescription": "Descripcion larga, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit.",
         "price": 5,
         "discountPercentage": 0,
         "rating": 5,
         "stock": 5,
-        "brand": "",
+        "brand": "Brand",
+        "material" : "Material",
         "categoryId": 1,
         "category": 
         {
@@ -26,13 +28,15 @@ export const itemDataBase = [
 
     {
         "id": 2,
-        "title": "ENTERITOS",
-        "description": "",
+        "title": "ENTERITOS",        
+        "description": "Descripcion corta",
+        "longDescription": "Descripcion larga, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit.",
         "price": 5,
         "discountPercentage": 0,
         "rating": 5,
         "stock": 5,
-        "brand": "",
+        "brand": "Brand",
+        "material" : "Material",
         "categoryId": 1,
         "category": 
         {
@@ -52,12 +56,14 @@ export const itemDataBase = [
     {
         "id": 3,
         "title": "CONJUNTOS",
-        "description": "",
+        "description": "Descripcion corta",
+        "longDescription": "Descripcion larga, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit.",
         "price": 5,
         "discountPercentage": 0,
         "rating": 5,
         "stock": 5,
-        "brand": "",
+        "brand": "Brand",
+        "material" : "Material",
         "categoryId": 1,
         "category": 
         {
@@ -77,12 +83,14 @@ export const itemDataBase = [
     {
         "id": 4,
         "title": "NOMBRE RANDOM",
-        "description": "",
+        "description": "Descripcion corta",
+        "longDescription": "Descripcion larga, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit.",
         "price": 5,
         "discountPercentage": 0,
         "rating": 5,
         "stock": 5,
-        "brand": "",
+        "brand": "Brand",
+        "material" : "Material",
         "categoryId": 2,
         "category": 
         {
@@ -102,12 +110,14 @@ export const itemDataBase = [
     {
         "id": 5,
         "title": "NOMBRE RANDOM",
-        "description": "",
+        "description": "Descripcion corta",
+        "longDescription": "Descripcion larga, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit.",
         "price": 5,
         "discountPercentage": 0,
         "rating": 5,
         "stock": 5,
-        "brand": "",
+        "brand": "Brand",
+        "material" : "Material",
         "categoryId": 2,
         "category": 
         {
@@ -127,12 +137,14 @@ export const itemDataBase = [
     {
         "id": 6,
         "title": "NOMBRE RANDOM",
-        "description": "",
+        "description": "Descripcion corta",
+        "longDescription": "Descripcion larga, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit.",
         "price": 5,
         "discountPercentage": 0,
         "rating": 5,
         "stock": 5,
-        "brand": "",
+        "brand": "Brand",
+        "material" : "Material",
         "categoryId": 2,
         "category": 
         {
@@ -152,12 +164,14 @@ export const itemDataBase = [
     {
         "id": 7,
         "title": "NOMBRE RANDOM",
-        "description": "",
+        "description": "Descripcion corta",
+        "longDescription": "Descripcion larga, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit.",
         "price": 5,
         "discountPercentage": 0,
         "rating": 5,
         "stock": 5,
-        "brand": "",
+        "brand": "Brand",
+        "material" : "Material",
         "categoryId": 3,
         "category": 
         {
@@ -177,12 +191,14 @@ export const itemDataBase = [
     {
         "id": 8,
         "title": "NOMBRE RANDOM",
-        "description": "",
+        "description": "Descripcion corta",
+        "longDescription": "Descripcion larga, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit.",
         "price": 5,
         "discountPercentage": 0,
         "rating": 5,
         "stock": 5,
-        "brand": "",
+        "brand": "Brand",
+        "material" : "Material",
         "categoryId": 3,
         "category": 
         {
@@ -202,12 +218,14 @@ export const itemDataBase = [
     {
         "id": 9,
         "title": "NOMBRE RANDOM",
-        "description": "",
+        "description": "Descripcion corta",
+        "longDescription": "Descripcion larga, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit.",
         "price": 5,
         "discountPercentage": 0,
         "rating": 5,
         "stock": 5,
-        "brand": "",
+        "brand": "Brand",
+        "material" : "Material",
         "categoryId": 3,
         "category": 
         {
@@ -227,12 +245,14 @@ export const itemDataBase = [
     {
         "id": 10,
         "title": "NOMBRE RANDOM",
-        "description": "",
+        "description": "Descripcion corta",
+        "longDescription": "Descripcion larga, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit.",
         "price": 5,
         "discountPercentage": 0,
         "rating": 5,
         "stock": 5,
-        "brand": "",
+        "brand": "Brand",
+        "material" : "Material",
         "categoryId": 3,
         "category": 
         {
